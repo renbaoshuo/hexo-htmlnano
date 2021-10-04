@@ -1,0 +1,26 @@
+{
+  "name": "hexo-htmlnano",
+  "version": "0.0.0",
+  "description": "Minify HTML files in Hexo with htmlnano.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renbaoshuo/hexo-htmlnano.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-plugin",
+    "html",
+    "minify"
+  ],
+  "author": {
+    "name": "Ren Baoshuo",
+    "email": "i@baoshuo.ren",
+    "url": "https://baoshuo.ren"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/renbaoshuo/hexo-htmlnano/issues"
+  },
+  "homepage": "https://github.com/renbaoshuo/hexo-htmlnano#readme"
+}

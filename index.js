@@ -20,7 +20,7 @@ hexo.config.htmlnano = Object.assign(
     hexo.config.htmlnano
 );
 
-const ignoreCustomComments = hexo.config.ignoreCustomComments;
+const ignoreCustomComments = hexo.config.htmlnano.ignoreCustomComments;
 
 hexo.config.htmlnano.removeComments = (comment) => !micromatch.isMatch(comment, ignoreCustomComments);
 delete hexo.config.htmlnano.ignoreCustomComments;

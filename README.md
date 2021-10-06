@@ -29,7 +29,8 @@ htmlnano:
   collapseBooleanAttributes:
   collapseWhitespace: conservative
   # Ignore '<!-- more -->' https://hexo.io/docs/tag-plugins#Post-Excerpt
-  ignoreCustomComments: [ !!js/regexp /^\s*more/ ]
+  ignoreCustomComments: 
+    - '^\\s*more'
   removeComments: true
   removeEmptyAttributes: true
   minifyJs:
@@ -38,7 +39,7 @@ htmlnano:
   minifyJson:
 ```
 
-- **ignoreCustomComments**: Array of regex'es that allow to ignore certain comments, when matched. Need to prepend [`!!js/regexp`](https://github.com/nodeca/js-yaml#supported-yaml-types) to support regex.
+- **ignoreCustomComments**: Array of regex'es that allow to ignore certain comments, when matched.
 
 Description of the above options and other available options, see [htmlnano docs](https://htmlnano.netlify.app/modules).
 

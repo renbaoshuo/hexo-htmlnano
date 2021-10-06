@@ -8,7 +8,7 @@ hexo.config.htmlnano = Object.assign(
         collapseBooleanAttributes: {},
         collapseWhitespace: 'conservative',
         // Ignore '<!-- more -->' https://hexo.io/docs/tag-plugins#Post-Excerpt
-        ignoreCustomComments: [/^\s*more/],
+        ignoreCustomComments: ['^\\s*more'],
         removeComments: true,
         removeEmptyAttributes: true,
         minifyJs: {},
